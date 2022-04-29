@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "QBlock",
+  "description": "Blocking ads.",
+  "version": "0.0.1",
+  "author": "Amaan_Charuhas",
+  "action": {
+    "default_title": "QBlock"
+  },
+  "permissions": ["webNavigation", "scripting"],
+  "background": {
+    "service_worker": "extension.js"
+  },
+  "host_permissions": ["https://*.linkedin.com/"]
+}
